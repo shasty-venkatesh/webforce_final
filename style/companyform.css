@@ -1,0 +1,18 @@
+.companyform {
+  margin-top: 0rem;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+  margin-left: 5rem;
+  width: 46rem;
+}
+.companyform .namegst{
+    display: flex;
+    justify-content: space-between;
+}
+.companyform .pincode{
+    margin-bottom: 1rem;
+}
+.companyform .companyimg{
+    top:7rem;
+    left: 60rem;
+}

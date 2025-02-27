@@ -1,0 +1,100 @@
+.sellproduct {
+  margin-top: 7rem;
+  margin-left: 6rem;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+  width: 60%;
+}
+.sellproduct .product {
+  background-color: rgb(211, 255, 222);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  width: 26rem;
+  height: 7rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1),
+    0px 8px 20px rgba(111, 232, 119, 0.2);
+  transform: translateY(-5px);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.sellproduct .product:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15),
+    0px 12px 25px rgba(137, 240, 159, 0.3);
+}
+.sellproduct .owner {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  margin-left: 0.3rem;
+}
+.sellproduct .product .feature {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin-top: -1rem;
+}
+.sellproduct .product .feature p {
+  background-color: rgb(56, 56, 56);
+  padding: 0.3rem 1rem;
+  border-radius: 1rem;
+  color: rgb(209, 255, 209);
+}
+.sellproduct .sellingbutton {
+  position: absolute;
+  left: 19rem;
+  top: 1.5rem;
+  padding: 0.5rem 1rem;
+  font-size: larger;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 2px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(0px);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.sellproduct .sellingbutton:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15), 0px 4px 14px rgba(0, 0, 0, 0.3);
+}
+
+.sellproduct .sellingbutton:active {
+  transform: translateY(2px);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 1px 5px rgba(0, 0, 0, 0.2);
+}
+.sellproduct .recycleimg {
+  width: 30rem;
+  position: absolute;
+  left: 70rem;
+  top: 12rem;
+}
+.sellproduct .statusconfirm {
+  width: 8rem;
+  left: 17.5rem;
+  top: 0rem;
+}
+.sellproduct .pending{
+  width: 6rem;
+  left: 17.5rem;
+  top: 0rem;
+}
+.sellproduct .statusconfirm p {
+  width: 6rem;
+}
+ .dismissbutton {
+  padding: 0.5rem 1rem;
+  background-color: #4caf50;
+  color: aliceblue;
+  font-size: large;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+  border:none;
+  text-align: center;
+  border-radius: 0.5rem;
+}

@@ -1,0 +1,80 @@
+.table-container {
+  padding: 1.4rem;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+}
+
+.table-container .table-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.table-container .table-wrapper {
+  overflow-x: auto;
+}
+
+.table-container .scrap-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table-container .scrap-table th,
+.table-container .scrap-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  margin: 1rem;
+}
+
+.table-container .scrap-table th {
+  background-color: #1d1d1d;
+  color: rgb(255, 255, 255);
+  font-size: larger;
+}
+
+.table-container .scrap-table .even-row {
+  background-color: #d6ffcc;
+}
+
+.table-container .scrap-table .odd-row {
+  background-color: rgb(236, 247, 231);
+}
+
+.table-container .scrap-table tr:hover {
+  background-color: #baffa4;
+  transition: background 0.3s ease-in-out;
+}
+.table-container .canceled {
+  background-color: rgb(254, 75, 75);
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: larger;
+  color: #f1f1f1;
+}
+.table-container .completed {
+  background-color: rgb(121, 254, 176);
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: larger;
+  color: #424242;
+  padding-top: 0.5rem;
+  margin: 1rem;
+}
+.table-container .filterstatus {
+  width: 15rem;
+  height: 2.5rem;
+  margin-bottom: 3rem;
+  padding-left: 0.5rem;
+  border-radius: 0.5rem;
+  margin-left: 0.5rem;
+  font-size: larger;
+  appearance: none; /* Removes default styles */
+  background-color: #edf5f0;
+  border: 0.1rem solid #2d8e2b;
+}
+.table-container .filterheader{
+    font-size:large;
+    margin-left: 1rem;
+}

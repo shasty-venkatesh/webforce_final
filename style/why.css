@@ -1,0 +1,94 @@
+/* General Section Styling */
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+GB+S:wght@100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+#whyus {
+    background-color: #00916e;
+    padding: 0px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+  }
+  
+  .header--why-us {
+    font-family: "Exo 2", serif;
+    font-size: 2.1rem;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+    
+  }
+  
+  /* Container */
+  .why_us .container {
+    max-width: 1210px;
+    height: 320px;
+    margin: 0 auto;
+  }
+  
+  /* Columns Styling */
+  .why_us .row {
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .why_us_col {
+    display: flex;
+    font-family: "Exo 2", serif;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 230px;
+    height: 150px;
+  }
+  
+  .why_us_col:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Image Styling */
+  .why_us_col img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+  }
+  
+  /* Text Styling */
+  .why_us_col h4 {
+    font-family: "Exo 2", serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .why_us_col p {
+    font-size: 0.95rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .why_us_col {
+      flex: 1 1 100%;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .why_us_col {
+      flex: 1 1 45%;
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .why_us_col {
+      flex: 1 1 22%;
+    }
+  }
+  

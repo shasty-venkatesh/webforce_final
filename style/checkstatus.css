@@ -1,0 +1,147 @@
+.checkstatuspage{
+    overflow-x: none;
+}
+.checkstatus {
+  margin: 3rem 8rem;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+}
+.checkstatus .statusbutton {
+  display: flex;
+}
+.checkstatus .statusbutton button {
+  margin-right: 3rem;
+  width: 13rem;
+  height: 2.5rem;
+  border-radius: 1.5rem;
+  border: none;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.checkstatus .statusbutton .schedule {
+  color: rgb(38, 150, 38);
+  background-color: rgb(215, 249, 215);
+}
+.checkstatus .statusbutton .scheduleactive {
+  background-color: #42b342;
+  color: rgb(215, 249, 215);
+}
+.checkstatus .statusbutton .cancel {
+  color: rgb(239, 82, 82);
+  background-color: rgb(245, 219, 219);
+}
+.checkstatus .statusbutton .cancelactive {
+  background-color: rgb(239, 82, 82);
+  color: rgb(245, 219, 219);
+}
+.checkstatus .statusbutton .completed {
+  background-color: rgb(206, 163, 163);
+  color: rgb(50, 50, 50);
+}
+.checkstatus .statusbutton .completedactive {
+  background-color: rgb(119, 11, 38);
+  color: rgb(222, 206, 206);
+}
+.checkstatus .line {
+  width: 60%;
+  height: 0.1rem;
+  background-color: rgb(73, 73, 73);
+  margin-left: -1rem;
+  margin-top: 3rem;
+}
+.checkstatus .checkstatusimg {
+  width: 45rem;
+  position: absolute;
+  top: 2rem;
+  left: 53rem;
+}
+.checkstatus .schedulelist,
+.checkstatus .cancellist,
+.checkstatus .completedlist {
+  background-color: #dcf3dc;
+  margin-top: 2rem;
+  margin-left: -2rem;
+  width: 45rem;
+  list-style: none;
+  height: 3rem;
+  padding: 1rem;
+  border: 0.1rem solid #42b342;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.checkstatus .schedulelist img,
+.checkstatus .cancellist img,
+.checkstatus .completedlist img {
+  width: 2rem;
+  height: 2rem;
+}
+.checkstatus .schedulelistheader,
+.checkstatus .cancellistheader,
+.checkstatus .completedlistheader {
+  display: flex;
+  justify-content: space-between;
+}
+.checkstatus .scheduletime,
+.checkstatus .canceltime,
+.checkstatus .completedtime {
+  margin-top: 0rem;
+  color: rgb(133, 131, 131);
+}
+.checkstatus .scheduleaddress,
+.checkstatus .canceladdress,
+.checkstatus .completedaddress {
+  margin-top: 0rem;
+  margin-left: 1rem;
+  color: #166216;
+}
+.checkstatus .category,
+.checkstatus .cancelcategory,
+.checkstatus .completedcategory {
+  color: #166216;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -1.5rem;
+  margin-left: 1rem;
+}
+.checkstatus .category .price,
+.checkstatus .cancelcategory .cancelprice,
+.checkstatus .completedcategory .completedprice {
+  margin-left: 3rem;
+}
+.checkstatus .noschedulestatus,
+.checkstatus .nocancelstatus,
+.checkstatus .nocompletedstatus {
+  font-size: large;
+  font-weight: 600;
+  color: rgb(52, 52, 52);
+  margin-top: 3rem;
+  margin-left: 15rem;
+}
+.checkstatus .cancellist {
+  border: 0.1rem solid rgb(241, 57, 57);
+  background-color: rgb(247, 213, 213);
+  color: white;
+}
+.checkstatus .canceladdress {
+  color: rgb(0, 0, 0);
+}
+.checkstatus .cancelcategory {
+  color: black;
+}
+.checkstatus .canceltime {
+  color: rgb(56, 56, 56);
+}
+.checkstatus .completedlist {
+  border: 0.1rem solid rgb(119, 11, 38);
+  background-color: rgb(222, 206, 206);
+}
+.checkstatus .completedaddress {
+  color: rgb(119, 11, 38);
+}
+.checkstatus .completedcategory {
+  color: rgb(119, 11, 38);
+}
+.checkstatus .completedtime{
+    color: black;
+}

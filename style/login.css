@@ -1,0 +1,74 @@
+.loginsection,
+.registersection {
+  background-color: #f6faf5;
+  overflow-x: none;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+ 
+}
+.loginsection .loginheader,
+.registersection .registerheader {
+  text-align: center;
+  color: rgb(37, 188, 37);
+  font-size: 1.4rem;
+}
+.loginsection .loginpara,
+.registersection .registerpara {
+  text-align: center;
+  margin-top: -0.5rem;
+  color: rgb(90, 90, 90);
+}
+.loginsection label,
+.registersection label {
+  text-align: left;
+  margin-left: 1.3rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.loginsection input,
+.registersection input {
+  margin: 0.5rem 0;
+  color: green;
+}
+.loginsection .registerlink,
+.registersection .loginlink {
+  margin-top: -0.2rem;
+}
+
+.loginsection fieldset,
+.registersection fieldset {
+  border: 2px solid green;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px 0.5rem;
+  height: 4rem;
+}
+
+.loginsection fieldset legend,
+.registersection fieldset legend {
+  color: green;
+  font-weight: bold;
+}
+
+.loginsection fieldset label,
+.registersection fieldset label {
+  color: green;
+  font-size: 16px;
+  margin-right: 10px;
+  display: inline-flex;
+}
+
+.loginsection fieldset input[type="radio"],
+.registersection fieldset input[type="radio"] {
+  accent-color: green;
+  margin-right: 5px;
+  width: 1.2rem;
+  margin-top: -0.8rem;
+}
+.loginsection{
+  height: 27rem;
+  margin-top: 6rem;
+}
+.loginsection .loginheader{
+  margin-top: 1rem;
+}

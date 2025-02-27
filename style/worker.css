@@ -1,0 +1,127 @@
+.workercardlist {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 0rem;
+  row-gap: 0;
+  margin-left: 38rem;
+  margin-top: 5rem;
+  width: 65%;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.workercard {
+  margin: 3rem 0.5rem 0 0;
+  border: 0.01rem solid rgb(44, 182, 95);
+  padding: 0.5rem;
+  box-shadow: 0 0 3px 1px rgba(29, 202, 95, 0.75);
+  transition: box-shadow 0.3s ease;
+  border-radius: 0.5rem;
+  width: 20rem;
+  height: 18rem;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+}
+.workercard:hover {
+  box-shadow: 0 0 6px 2px rgb(18, 161, 94);
+}
+.workercard .workerheader {
+  border-bottom: 0.1rem solid rgb(36, 187, 86);
+  display: flex;
+  justify-content: space-between;
+}
+.workercard .workerheader1 {
+  margin: -0.5rem;
+  border-radius: 0.1rem;
+  font-size: larger;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: rgb(81, 80, 80);
+  margin-bottom: 0rem;
+}
+.workercard .workername {
+  margin-top: -0.5rem;
+  margin-left: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+.workercard .personicon {
+  width: 3rem;
+  margin: 0.5rem;
+}
+.workercard .icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.workercard .workertime {
+  margin-right: 0.5rem;
+  color: rgb(75, 75, 75);
+  text-align: right;
+  font-size: 0.9rem;
+}
+.workercard .workertime .slot {
+  margin-top: -0.7rem;
+  margin-bottom: 1.4rem;
+}
+.workercard .workerbody {
+  list-style: none;
+}
+.workercard .workerbody li {
+  display: flex;
+  justify-content: left;
+  margin-left: -2rem;
+  margin-bottom: -0.1rem;
+}
+.workercard .workerdetail {
+  margin-top: 0.2rem;
+  margin-left: 0.5rem;
+}
+.workercard .workerbutton {
+  position: relative;
+  top: -3.5rem;
+  left: 14.5rem;
+}
+.workercard .workerbutton button {
+  width: 2.5rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+.workercard .workerbutton .completed {
+  background-color: rgb(49, 212, 120);
+  color: aliceblue;
+  transition: 0.1s all ease-in;
+}
+.workercard .workerbutton .cancel {
+  background-color: rgb(240, 29, 29);
+  color: aliceblue;
+  transition: 0.1s all ease-in;
+}
+.workercard .workerbutton .completed:hover {
+  background-color: rgb(95, 220, 126);
+}
+.workercard .workerbutton .cancel:hover{
+  background-color: rgb(240, 85, 85);
+}
+.workersection {
+  display: flex;
+  overflow-x: hidden;
+}
+.workersection .workerimg{
+  width: 31rem;
+  height: 30rem;
+  margin-top: 7rem;
+  margin-left: 2rem;
+  position: fixed;
+}
+.workersection .noorder{
+  font-size: 4rem;
+  margin: 13rem 9rem;
+  width: 40rem;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+  color: rgb(71, 203, 111);
+  text-transform: capitalize;
+}

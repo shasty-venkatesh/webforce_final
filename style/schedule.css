@@ -1,0 +1,145 @@
+.scheduleform {
+  /* background-color: aqua; */
+  margin-top: 0rem;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+  margin-left: 5rem;
+  width: 50rem;
+}
+.scheduleform .backbutton,
+.checkstatuspage .backbutton,
+.workeraddfrom .backbutton,
+.companyform .backbutton,
+.container .backbutton {
+  margin: 3rem -1rem;
+  width: 4rem;
+  height: 4rem;
+  font-size: 4rem;
+  background-color: transparent;
+  border: none;
+  color: #313131;
+  transition: all 0.1s ease-in-out;
+  margin-bottom: 1rem;
+}
+.scheduleform .backbutton:hover,
+.checkstatuspage .backbutton:hover,
+.workeraddfrom .backbutton:hover,
+.companyform .backbutton:hover,
+.container .backbutton:hover {
+  transform: translateX(-20%);
+}
+.scheduleform label,
+.loginsection label,
+.workeraddfrom label,
+.companyform label {
+  display: block;
+  margin: 0.5rem 0;
+  font-size: larger;
+  font-weight: 700;
+  color: #353535;
+}
+.scheduleform .datetime {
+  display: flex;
+  justify-content: space-between;
+}
+.scheduleform .weight {
+  display: flex;
+  justify-content: left;
+}
+
+.scheduleform input,
+.scheduleform textarea,
+.loginsection input,
+.registersection input,
+.workeraddfrom input,
+.companyform input,.filter-container input {
+  width: 20rem;
+  height: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 0.1rem solid #2d8e2b;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  color: #2d8e2b;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+}
+.scheduleform select,.filter-container select {
+  width: 20rem;
+  height: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 0.1rem solid #2d8e2b;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  color: #2d8e2b;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+  background-color: white;
+  appearance: none; /* Removes default styles */
+}
+.scheduleform .datetime select:focus {
+  border: 0.1rem solid #2d8e2b;
+  border-radius: 0.5rem;
+}
+
+.scheduleform .datetime option {
+  background-color: white;
+  color: #2d8e2b;
+  border: 0.1rem solid #2d8e2b; /* Green border */
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+.scheduleform .address,
+.companyform .address {
+  width: 44rem;
+  margin-bottom: 1rem;
+}
+.scheduleform .pincode,
+.companyform .pincode {
+  margin-left: 1.5rem;
+}
+.scheduleform .remark {
+  margin-left: 4rem;
+}
+.scheduleform textarea {
+  resize: none;
+}
+.scheduleform .remark span {
+  color: #8c8c8c;
+  font-weight: 400;
+}
+.scheduleform input[type="submit"],
+.workeraddfrom input[type="submit"],
+.companyform input[type="submit"] {
+  background-color: #56bd54;
+  color: #f6faf5;
+  margin-top: 2rem;
+  border: none;
+}
+.scheduleform input[type="submit"]:hover,
+.workeraddfrom input[type="submit"]:hover,
+.companyform input[type="submit"]:hover {
+  background-color: #52db50;
+}
+.scheduleform .scheduleimg,
+.workeraddfrom .workerimg,
+.companyform .companyimg {
+  width: 40rem;
+  position: absolute;
+  left: 54rem;
+  top: 4rem;
+}
+.scheduleform .linkcheck {
+  margin-left: 3rem;
+  color: #8c8c8c;
+}
+.checkstatuspage .backbutton,
+.container .backbutton {
+  margin-left: 8rem;
+  margin-bottom: -7rem;
+  margin-top: 1rem;
+}
+.scheduleform .category {
+  margin-left: 6rem;
+}

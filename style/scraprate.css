@@ -1,0 +1,101 @@
+.container {
+  padding: 20px;
+  text-align: center;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+}
+
+.container h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.container input[type="text"] {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 500px;
+  margin-bottom: 20px;
+  font-size: large;
+}
+
+.container .category-section {
+  margin-bottom: 30px;
+}
+
+.container h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+
+.container .items-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  justify-content: left;
+  padding: 20px;
+}
+
+.container .item-card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* 🔥 Stronger Shadow */
+  text-align: center;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  width: 220px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .item-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); /* 🔥 Even Darker on Hover */
+}
+
+.container .item-card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.container .rate {
+  color: green;
+  font-weight: bold;
+  margin-top: 5px;
+  font-size: 1.2rem;
+}
+
+.container .item-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.container .no-items {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: red;
+  margin-top: 10px;
+}
+
+.container .scrap-icon {
+  font-size: 60px;
+  color: #4caf50;
+}
+
+.container .item-card:hover .scrap-icon {
+  color: #44ff00;
+}
+.container .backbutton{
+    text-align: left;
+    margin-left: -80rem;
+}

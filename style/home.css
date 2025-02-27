@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+GB+S:wght@100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+GB+S:wght@100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+GB+S:wght@100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  background-color: #f6faf5;
+  overflow-x: none;
+}
+.form,
+.loginsection,
+.registersection {
+  text-align: center;
+  border: 0.01rem solid rgb(0, 176, 0);
+  padding: 1rem;
+  box-shadow: 0 0 1px #2c6b34, 0 0 1px #2c6b34, 0 0 10px #2c6b34;
+  border-radius: 0.5rem;
+  width: 25rem;
+  height: 34rem;
+  position: absolute;
+  left: 55rem;
+  top: 8rem;
+}
+.form .header1,
+.loginsection .loginheader,
+.registersection .registerheader {
+  text-align: left;
+  color: rgb(87, 87, 87);
+  font-size: large;
+  font-weight: 700;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+  margin-top: 0.5rem;
+}
+.form .header2 {
+  color: rgb(150, 150, 150);
+  font-size: 0.8rem;
+  text-align: left;
+  font-weight: 500;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+  margin-top: -0.7rem;
+}
+.form .header3 {
+  margin-top: 0.5rem;
+  text-align: center;
+  font-weight: 600;
+}
+.form .button,
+.checkstatus .schedulebutton,
+.loginsection button,
+.registersection button {
+  width: 22rem;
+  height: 2.8rem;
+  margin: 0.5rem 0;
+  background-color: #3ab34a;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: large;
+  font-weight: 600;
+  color: #f6faf5;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+}
+.form .button:hover,
+.checkstatus .schedulebutton:hover,
+.loginsection button:hover,
+.registersection button:hover {
+  background-color: #3fd853;
+}
+.form .footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.form .footer .link,
+.scheduleform .link,
+.loginsection .link,
+.registersection .link {
+  text-decoration: none;
+  color: #3ab34a;
+  font-size: large;
+  font-weight: 600;
+  margin-top: 1rem;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+}
+.form .footer .message {
+  color: rgb(150, 150, 150);
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+  margin-top: 1.3rem;
+}
+.form .footer .message span {
+  color: #3ab34a;
+}
+.form .chooseform {
+  display: flex;
+  justify-content: space-between;
+}
+.form .chooseform .active {
+  color: white;
+  background-color: #3ab34a;
+  padding: 1rem;
+  margin-top: -1rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  border-top-left-radius: 0.4rem;
+  width: 11rem;
+  font-size: large;
+  font-weight: 500;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+  overflow: hidden;
+}
+.form .chooseform .inactive {
+  color: #3ab34a;
+  background-color: #f6faf5;
+  padding: 1rem;
+  margin-top: -1rem;
+  border-top-right-radius: 0.4rem;
+  width: 12rem;
+  font-size: large;
+  font-weight: 500;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+  border-bottom: 0.1rem solid #3ab34a;
+  margin-right: -1rem;
+  margin-left: -1rem;
+  overflow: hidden;
+  border-top-left-radius: 0.4rem;
+}
+.aifeature .feature {
+  font-size: larger;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+}
+.aifeature .feature span {
+  background: rgb(67, 140, 14);
+  background: linear-gradient(
+    90deg,
+    rgba(67, 140, 14, 1) 0%,
+    rgba(74, 231, 49, 1) 53%
+  );
+  padding: 0.4rem;
+  border-radius: 0.5rem 1rem;
+  color: #f6faf5;
+}
+
+
+.feature-text {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.highlight-text {
+  background-color: #4CAF50;
+  color: white;
+  padding: 3px 6px;
+  border-radius: 5px;
+}
+
+.upload-box {
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  width: 90%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px auto;
+  cursor: pointer;
+  background-color: #f9f9f9;
+}
+
+.upload-box p {
+  color: #3ab34a;
+}
+
+.image-preview img {
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.file-input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.detected-container {
+  margin-top: 20px;
+  text-align: center;
+  max-height: 300px;
+  overflow-y: auto;
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.detected-container img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.detections-container {
+  margin-top: 20px;
+  text-align: center;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.assist-scrollable-container {
+  max-height: 57vh; /* Adjust this to fit your design */
+  overflow-y: auto;
+  padding: 20px;
+}
+
+.assist-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.upload-box {
+  max-height: 300px; /* Adjust the size as needed */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed #ccc;
+  padding: 20px;
+}
+
+.image-preview img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.detected-container,
+.detections-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.error-message {
+  color: red;
+}
+
+.file-input {
+  display: block;
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
+/* General button styling */
+.option-btn {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.option-btn:hover {
+  background-color: #45a049;
+  transform: scale(1.1);
+}
+
+.option-btn.active {
+  background-color: #45a049;
+}
+
+/* Transition effect for webcam and photo sections */
+.photo-upload-container, .webcam-container {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.photo-upload-container {
+  opacity: 1;
+}
+
+.webcam-container {
+  opacity: 1;
+}
+
+.aifeature {
+  transition: transform 0.3s ease;
+}
+
+.webcam-button {
+  padding: 10px 20px;
+  background-color: #FF6347;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.webcam-button:hover {
+  background-color: #FF4500;
+}
+
+.waste-info {
+  margin-top: 20px;
+}
+
+.waste-card {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.waste-card.organic {
+  background-color: #d4edda;
+  border-left: 5px solid #28a745;
+}
+
+.waste-card.hazardous {
+  background-color: #f8d7da;
+  border-left: 5px solid #dc3545;
+}
+
+.waste-card.recyclable {
+  background-color: #d1ecf1;
+  border-left: 5px solid #17a2b8;
+}
+
+.schedule-button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

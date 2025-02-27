@@ -1,0 +1,23 @@
+.filter-container 
+{
+    margin: 4rem 1rem;
+}
+.filter-container {
+    margin-left: 5rem;
+    font-size: larger;
+}
+.filter-container label{
+    margin-left: 2rem;
+}
+.btn-update,.btn-delete{
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    font-size: large;
+    background-color: rgb(72, 220, 72);
+    border: none;
+    color: #ffffff;
+    border-radius: 0.5rem;
+}
+.btn-delete{
+    background-color: rgb(220, 51, 51);
+}

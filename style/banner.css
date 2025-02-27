@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+GB+S:wght@100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.userbanner {
+  margin: 6rem 7rem;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+}
+.userbanner h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.userbanner h1 span {
+    background-image: linear-gradient(
+      90deg,
+      rgb(65, 169, 33) 23%,
+      rgba(36, 136, 187, 1) 81%
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    display: inline-block; 
+  }
+  
+.userbanner img {
+  width: 30rem;
+  margin-bottom: -4rem;
+}
+.userbanner p{
+    color:rgb(101, 101, 101);
+    font-size: large;
+    font-weight: 700;
+    margin-top: -1.5rem;
+}

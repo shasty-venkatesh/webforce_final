@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+GB+S:wght@100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0px 20px 20px;
+    margin-top: 3rem;
+    
+    
+  }
+  .row{
+    margin-bottom: 2rem;
+  }
+  .deferent_title {
+    font-family: "Exo 2", serif;
+    color: #000;
+    font-size: 38px;
+    letter-spacing: -1.5px;
+    line-height: 100%;
+    margin: 30px auto;
+    max-width: 700px;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    background: #04d976;
+    background: linear-gradient(270deg, #04d976 0, #00b8a5);
+    -webkit-background-clip: text;
+    color: #5b5b5b;
+    margin-top: 2rem;
+  }
+  
+  .content-holder {
+    padding: 20px;
+  }
+  
+  .deferent_sub_title {
+    font-family: "Exo 2", serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .deferent_ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .deferent_ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .deferent_ul li img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .deferent_image,
+  .deferent_image_household {
+    max-width: 100%;
+    height: 230px;
+    width: 330px;
+    
+  }
+
+  .deferent_image{
+    padding-left: 200px;
+  }
+
+  .deferent_image_household{
+    padding-right: 200px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .f-sm-column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .sub-sub-title{
+    font-family: "Exo 2", serif;
+    font-size: 1.2rem;
+  }
+  @media (min-width: 768px) {
+    .f-sm-column-reverse {
+      flex-direction: row;
+    }
+  }
+  

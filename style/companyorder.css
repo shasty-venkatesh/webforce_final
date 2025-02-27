@@ -1,0 +1,93 @@
+.companyorder .table-container {
+  width: 90%;
+  margin: 2rem 3.5rem;
+  /* background: #ffffff; */
+  /* border-radius: 10px; */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  text-align: center;
+}
+
+.companyorder .table-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.companyorder .filter-container {
+  display: flex;
+  justify-content: center;
+  /* gap: 10px; */
+  margin-bottom: 20px;
+}
+
+.companyorder .filterstatus {
+  width: 20rem;
+  height: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 0.1rem solid #2d8e2b;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  color: #2d8e2b;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+}
+
+.companyorder .filterstatus:focus {
+  border-color: #2ced4f;
+}
+
+.companyorder .table-wrapper {
+  overflow-x: auto;
+}
+
+.companyorder .scrap-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.companyorder .scrap-table th,
+.companyorder .scrap-table td {
+  /* padding: 10px; */
+  border: 1px solid #ddd;
+  text-align: center;
+  height: 1rem;
+  font-size: 1.2rem;
+}
+
+.companyorder .scrap-table th {
+  background: #0a1725;
+  color: white;
+}
+
+.companyorder .scrap-table tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+.companyorder .scrap-table tr:hover {
+  background-color: #baffa4;
+}
+
+.companyorder button {
+  padding: 0.5rem 2rem;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: larger;
+  margin-top: -1rem;
+}
+
+.companyorder button:hover {
+  background: #218838;
+}
+.companyorder .scrap-table td {
+  border: 1px solid #ddd;
+  text-align: center;
+  height: -1rem; /* Reduced height */
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
